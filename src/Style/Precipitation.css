@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Precipitation
+{
+    background-color: rgba(0, 140, 255, 0.719);
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left:2%;
+    margin-right: 5%;
+    overflow: hidden;
+    border-radius: 25px;
+    backdrop-filter: blur(40px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+}
+
+.Precipitation #pre
+{
+    padding: 4%;
+    padding-bottom: 0%;
+}
+
+.Precipitation .PreTable
+{
+    padding: 2%;
+    padding-top: 0%;
+    margin: 2%;
+}

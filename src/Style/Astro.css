@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Astro
+{
+    background-color : rgba(9, 255, 0, 0.479) ;
+    margin: 0;
+    padding: 2%;
+    margin : 2%;
+    border-radius: 25px;
+    backdrop-filter: blur(40px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+}
+
+.details
+{   
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}

@@ -1,0 +1,16 @@
+.MinorTemp *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MinorTemp
+{
+    background-color: rgba(169, 216, 255, 0.712);
+    margin: 1.5%;
+    padding: 0.5%;
+    border-radius: 25px;
+    backdrop-filter: blur(40px);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+}

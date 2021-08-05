@@ -1,0 +1,29 @@
+*
+{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Pha
+{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+}
+
+@media screen and (max-width: 780px)
+{   
+    .Pha
+    {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%; 
+    }
+
+    .Precipitation
+    {
+        grid-row: 2/-1;
+    }
+
+}
